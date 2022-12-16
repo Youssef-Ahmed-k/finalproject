@@ -6,6 +6,7 @@
 package finalproject;
 
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
 /**
@@ -124,7 +125,7 @@ public class Login extends javax.swing.JFrame {
                 this.dispose();
             }
             d.Close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e);
         }
 
@@ -140,7 +141,7 @@ public class Login extends javax.swing.JFrame {
                 this.dispose();
             }
             d.Close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e);
         } // project manager
         try {
@@ -155,7 +156,7 @@ public class Login extends javax.swing.JFrame {
                 this.dispose();
             }
             d.Close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e);
         }
         //admin
@@ -171,7 +172,7 @@ public class Login extends javax.swing.JFrame {
             }
 
             d.Close();
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, e);
         }
         if(x==0){

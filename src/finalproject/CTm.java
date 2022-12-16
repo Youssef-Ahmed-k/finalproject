@@ -124,7 +124,7 @@ DefaultTableModel t = new DefaultTableModel();
                 });
             }
             d.Close();
-        } catch (Exception ex) {
+        } catch (NumberFormatException | SQLException ex) {
             JOptionPane.showMessageDialog(null, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
