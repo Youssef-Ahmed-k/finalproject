@@ -7,7 +7,7 @@ package finalproject;
 
 /**
  *
- * @author 
+ * @author youssef_ahmed
  */
 public class Aprojects extends javax.swing.JFrame {
 

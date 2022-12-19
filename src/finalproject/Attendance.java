@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author 
+ * @author Mohamed_mo3taz
  */
 public class Attendance extends javax.swing.JFrame {
 

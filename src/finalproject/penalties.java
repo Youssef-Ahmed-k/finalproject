@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author 
+ * @author mohamed_mo3taz
  */
 public class penalties extends javax.swing.JFrame {
 

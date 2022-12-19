@@ -7,7 +7,7 @@ package finalproject;
 
 /**
  *
- * @author 
+ * @author Youssef_Ahmed
  */
 public class About extends javax.swing.JFrame {
 
@@ -76,7 +76,7 @@ public class About extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("ID :");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(340, 100, 130, 30);
+        jLabel4.setBounds(350, 100, 130, 30);
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));

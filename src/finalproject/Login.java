@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author 
+ * @author Youssef_Ahmed
  */
 public class Login extends javax.swing.JFrame {
 
@@ -43,6 +43,7 @@ public class Login extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setAlwaysOnTop(true);
         setLocation(new java.awt.Point(400, 200));
         setPreferredSize(new java.awt.Dimension(652, 452));
         setResizable(false);
@@ -51,7 +52,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/finalproject/icons8-people-100.png"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(260, 20, 140, 90);
+        jLabel1.setBounds(280, 20, 140, 90);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/finalproject/icons8-username-48.png"))); // NOI18N
         jLabel2.setText("jLabel2");

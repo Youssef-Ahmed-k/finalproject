@@ -21,7 +21,7 @@ public class CAdmin {
         JOptionPane.showMessageDialog(null, "Done", "ADD User ", JOptionPane.INFORMATION_MESSAGE);
         d.Close();
     }
-
+    
     public void updateuser() throws SQLException {
         int Id = Integer.parseInt(Update.id.getText());
         float Salary = Float.parseFloat(Update.salary.getText());
